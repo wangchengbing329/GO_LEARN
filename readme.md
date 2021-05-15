@@ -10,7 +10,7 @@
 
 > `default break func interface struct select`               
 > ` case defer go map struct`                    
-> `chan else goto package switch `
+> `chan else goto package switch `            
 > `const fallthrougth if raenge type `                
 > `continue for import return var `               
 
@@ -30,9 +30,9 @@
 > #### 变量申明
  * 标准声明 ：
   > `var`/ `const` 变量名 变量类型
-   `var name string`
-   ` var age int`
-   `var isOk bool`
+   `var name string`            
+   ` var age int`     
+   `var isOk bool`        
   * 批量声明 ：
 
   > var(       
@@ -41,4 +41,9 @@
   >  c bool     
   >
   >)
-  
+
+  >__nil__      代表一个控制 字符串就是 "" int 就是 0 
+
+
+  `iota`在 **`const`**<u>关键字出现时将被重置为0<u>。
+  **const中每新增一行常量声明将使iota计数一次(iota可理解为const语句块中的行索引)。 使用iota能简化定义，在定义枚举时很有用**
