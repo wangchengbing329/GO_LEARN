@@ -1,4 +1,4 @@
-###### Go语言学习
+# Go语言学习
 1. 开始创建文件目录
 
 学习教材来自[李文周的博客](https://www.liwenzhou.com/posts/Go/go_menu/)
