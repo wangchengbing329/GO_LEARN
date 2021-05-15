@@ -8,11 +8,11 @@
 
 #### keyword 关键字 25个
 
-> `default break func interface struct select`
-> ` case defer go map struct`
+> `default break func interface struct select`               
+> ` case defer go map struct`                    
 > `chan else goto package switch `
-> `const fallthrougth if raenge type `
-> `continue for import return var `
+> `const fallthrougth if raenge type `                
+> `continue for import return var `               
 
 #### 保留字
  
@@ -22,3 +22,23 @@
  | false |uint  uint8  uint16  uint32  uint64  uintptr|complex  real  imag|
  | iota | float32  float64  complex128  complex64| panic  recover| 
  | nil |bool  byte  rune  string  error| |
+ 
+* 变量： 
+  *计算机中数据是存在内存当中的，当我们想改变数据时往往需要去操作数据的内存地址，但在实际代码过程中，频繁地操作内存地址既不美观并且也容易出错，所以就用变量把内存地址保存起来。*
+* 变量类型：
+  *一般来讲，编程语言的变量类型可以分为 ***整形***， ***浮点型***， ***布尔型*** *
+> #### 变量申明
+ * 标准声明 ：
+  > `var`/ `const` 变量名 变量类型
+   `var name string`
+   ` var age int`
+   `var isOk bool`
+  * 批量声明 ：
+
+  > var(       
+  >  a string
+  >  b int
+  >  c bool
+  >
+  >)
+  
