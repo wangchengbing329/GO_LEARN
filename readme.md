@@ -16,9 +16,8 @@
 
 #### 保留字
  
+ | ***Constants***| ***Types*** | ***Functions*** |
  | :-: | :-: | :-: |
- | ***Constants***| ***Types*** | *** Functions*** |
-
  | true |  int  int8  int16  int32  int64 | make  len  cap  new  append  copy  close  delete|
  | false |uint  uint8  uint16  uint32  uint64  uintptr|complex  real  imag|
  | iota | float32  float64  complex128  complex64| panic  recover| 
